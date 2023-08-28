@@ -1,0 +1,13 @@
+:root {
+    --foreground: #fdfdfd;
+    --background: #adb9ff;
+    --accent: #adb9ff;
+    --secondary: #022b3a;
+    --black-text: #2c2222;
+    --black: #231E1E;
+    --text: #ffc013;
+    --white-text: #ffffff;
+    --drop-shadow: drop-shadow(5px -9px 22px #a09a9a);
+    --border-radius: 10px;
+    --shadow: drop-shadow(4px 4px 0px var(--black));
+}

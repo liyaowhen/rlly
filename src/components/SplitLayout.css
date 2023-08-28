@@ -1,0 +1,33 @@
+@import '../app/globals.css';
+
+footer {
+    height: 5vh;
+}
+
+div.split {
+    display: flex;
+    height: 85vh;
+    padding: 0.4%;
+    flex-grow: 1;
+    margin-top: 0.4%;
+}
+
+div.split > div {
+    display: inline-block;
+    margin: 0.4%;
+    background-color: var(--foreground);
+    border-radius: var(--border-radius);
+    padding: 1%;
+}
+
+div#left {
+    flex-grow: 0.5;
+}
+
+div#right {
+    flex-grow: 1;
+}
+
+div#center {
+    width: 60%;
+}
